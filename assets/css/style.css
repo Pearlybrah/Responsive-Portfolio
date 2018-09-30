@@ -46,7 +46,6 @@ p {
 }
 
 .style {
-    
     width: 1200px;
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tiny-squares.png");
 }
@@ -86,3 +85,112 @@ p {
     text-align: center;
     clear: both;
 }
+
+@media only screen and (min-width: 640px) {
+   header, .barTab { 
+       width: 320px;
+       position: static;
+   }
+   #insideBox {
+    background-color: white;
+    padding: 10%;
+    margin: 10% auto;
+    border: 1px ridge grey;
+    width: 640px; 
+    height: 60%;
+    text-align: center;;
+    position: relative;
+    top: 15%;;
+}
+   #family {
+    width: 40%;
+    height: 95%;
+    position: relative;
+    float: left;
+    clear: right;
+}
+   .style {
+       position: static;
+       width: 100%;
+       font-weight: bold;
+   }
+   .footer {
+    position: relative;
+    padding-top: 20%;
+    text-align: center;
+    clear: both;
+}
+} 
+
+@media only screen and (max-width: 768px) {
+    header, .barTab { 
+        width: 50%;
+        position: static;
+    }
+    #insideBox {
+     background-color: white;
+     padding: 10%;
+     margin: 10% auto;
+     border: 1px ridge grey;
+     width: 768px; 
+     height: 60%;
+     text-align: center;;
+     position: relative;
+     top: 15%;;
+ }
+    #family {
+     width: 40%;
+     height: 95%;
+     position: relative;
+     float: left;
+     clear: right;
+ }
+    .style {
+        position: static;
+        width: 100%;
+        font-weight: bold;
+    }
+    .footer {
+     position: relative;
+     padding-top: 20%;
+     text-align: center;
+     clear: both;
+ }
+ } 
+
+ @media only screen and (max-width: 980px) {
+    header, .barTab { 
+        width: 50%;
+        position: static;
+    }
+    #insideBox {
+     background-color: white;
+     padding: 10%;
+     margin: 10% auto;
+     border: 1px ridge grey;
+     width: 640px; 
+     height: 60%;
+     text-align: center;;
+     position: relative;
+     top: 15%;;
+ }
+    #family {
+     width: 40%;
+     height: 95%;
+     position: relative;
+     float: left;
+     clear: right;
+ }
+    .style {
+        position: static;
+        width: 980px;
+        font-weight: bold;
+    }
+    .footer {
+     position: relative;
+     padding-top: 20%;
+     text-align: center;
+     clear: both;
+ }
+ } 
+
